@@ -43,7 +43,7 @@ if __name__ == "__main__":
 	#plt.clf()
 	sns_hist_n = sns.distplot(data_n, bins = 20, kde=False, rug=True).get_figure()
 	axes = plt.gca()
-	axes.set_xlabel('MPG New vehicles')
+	axes.set_xlabel('MPG (L/100 km)')
 	axes.set_ylabel('Vehicles count')
 	sns_hist_n.savefig("hist_vehicles.png", bbox_inches = 'tight')
 	sns_hist_n.savefig("hist_vehicles.pdf", bbox_inches='tight')
@@ -53,8 +53,8 @@ if __name__ == "__main__":
 	sns_plot.axes[0,0].set_ylim(0,)
 	sns_plot.axes[0,0].set_xlim(0,)
 
-	sns_plot.savefig("scaterplot_vehicles.png",bbox_inches='tight')
-	sns_plot.savefig("scaterplot_vehicles.pdf",bbox_inches='tight')
+	sns_plot.savefig("scaterplot_vehicles.png",bbox_inches = 'tight')
+	sns_plot.savefig("scaterplot_vehicles.pdf",bbox_inches = 'tight')
 
 
 	# print((("Mean: %f")%(np.mean(data))))
