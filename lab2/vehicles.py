@@ -57,7 +57,6 @@ if __name__ == "__main__":
 	sns_plot.savefig("scaterplot_vehicles.pdf",bbox_inches='tight')
 
 
-
 	# print((("Mean: %f")%(np.mean(data))))
 	# print((("Median: %f")%(np.median(data))))
 	# print((("Var: %f")%(np.var(data))))

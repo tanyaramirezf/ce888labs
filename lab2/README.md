@@ -6,9 +6,9 @@ In order to compare the current and new vehicles and from the data collected tha
 
 ![logo](./hist_vehicles.png?raw=true)
 
-As it is show, the new vehicles (orange bars) the MPG is larger than the 
+From the data collected, there are more observations of current cars (blue bars) than new cars, nevertheless, from the fleet with new cars (orange bars), the MPG recorded is larger and the median from the current cars is smaller than for the new cars. 
 
-Furthermore, in order to review and to compare the performance of each fleet (current and new vehicles), using bootstrapping two confidence intervals were calculated for the standard deviation. Both confidence intervals are shown bellow:
+In order to review and to compare the performance of each fleet (current and new vehicles), bootstrapping was applied in order to calculate the confidence intervals for the standard deviation for each fleet. Both confidence intervals are shown bellow:
 
 #Confidence interval for current vehicles
 ![logo](./bootstrap_confidence_current.png?raw=true)
@@ -17,10 +17,4 @@ Furthermore, in order to review and to compare the performance of each fleet (cu
 ![logo](./bootstrap_confidence_new.png?raw=true)
 
  
-
-
-## Histogram and Scaterplot
-
-A business is looking at changing their current vehicle fleet and replacing their vehicles with ones used by their competitors. They are have captured the MPG of some of the cars in both fleets fleets.
-
-
+Given that the confidence interval for the current vehicles is within the confidence interval of the new project, there is no evidence of further improvement on the MPG.
